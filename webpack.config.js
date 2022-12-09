@@ -1,7 +1,6 @@
 module.exports = {
-    entry: [
-        "./app/app.ts"
-    ],
+    entry: "./app/app.ts",
+
     // devtool: "inline-source-map",
     // mode: 'development',
 
@@ -24,4 +23,4 @@ module.exports = {
         inline: false,
         // port: 9000
     }
-}
+};
