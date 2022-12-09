@@ -1,0 +1,17 @@
+{
+    "extends": "../tsconfig.base",
+    "compilerOptions": {
+        "removeComments": true, /* Disable emitting comments. */
+        "module": "AMD",
+        "outFile": "../js/app.js",
+        "sourceMap": false,
+        // "allowJs": true,
+    },
+    // "include": [
+    //     "./**/*",
+    //     "../webpack.config.js"
+    // ]
+    "files": [
+      "./app.ts"
+    ]
+}
